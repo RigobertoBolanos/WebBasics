@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!--Nicolás Biojo Bermeo, Juan Diego Carvajal Castaño, David Erazo Ochoa-->
+<head >
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+
+</head>
+<body onload="initialize()">
+
+    <div id="title">
+        <h2>el gran</h2>
+        <h1 id="rgb">rgb(0, 0, 0)</h1>
+        <h2>juego de color</h2>
+    </div>
+
+    <div id="options">
+        <button id="newGame" class="mode" onclick="initialize()">nuevo juego</button>
+        <span id="message"></span>
+        <button id="beginner" class="mode" onclick = "selectLevel(3)">novato</button>
+        <button id="normal" class="mode"  onclick = "selectLevel(6)">normal</button>
+        <button id="advanced" class="mode" onclick = "selectLevel(9)">master</button>
+    </div>
+
+    <div id="board"> 
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+       
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+    </div>
+</body>
+</html>
+<script  type="text/javascript" src="script.js"> </script>
